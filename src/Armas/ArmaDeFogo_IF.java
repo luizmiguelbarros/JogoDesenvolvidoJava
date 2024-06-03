@@ -6,5 +6,6 @@ public interface ArmaDeFogo_IF {
     void recarregar();
 
     int calcularDano();
+
     void usarArma();
 }

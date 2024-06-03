@@ -13,17 +13,17 @@ public class Mago extends Personagem implements ConjuracaoDeMagia_IF {
 
     @Override
     public void desenhar() {
-        // implementação do método desenhar para Mago
+        System.out.println("Desenhando um Mago");
     }
 
     @Override
-    public void falar() {
-
+    public void falar(){
+        System.out.println("Vingardi leviossaaaaa!!!");
     }
 
     @Override
     public void correr() {
-
+        System.out.println("Correndo...");
     }
 
     public void usarMagia() {

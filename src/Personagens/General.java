@@ -9,18 +9,18 @@ public class General extends Personagem {
 
     @Override
     public void desenhar() {
-        // implementação do método desenhar para General
+        System.out.println("Desenhando um General");
     }
 
     @Override
     public void falar() {
-
+        System.out.println("Avante guerreiros!!!");
     }
     private ArmaDeFogo_IF Faca;
     General general = new General(Faca);
 
     public void correr() {
-        System.out.println("O soldado está correndo!");
+        System.out.println("Correndo...");
     }
 
 }

@@ -1,13 +1,8 @@
 package Armas;
 import java.util.Random;
 
-public class Magia implements ConjuracaoDeMagia_IF, ArmaDeFogo_IF {
+public class Magia implements ConjuracaoDeMagia_IF ,ArmaDeFogo_IF {
 
-
-    @Override
-    public void conjurarMagia() {
-        System.out.println("O mago implacável está conjurando magia");
-    }
 
     @Override
     public void atirar() {
@@ -30,6 +25,11 @@ public class Magia implements ConjuracaoDeMagia_IF, ArmaDeFogo_IF {
         int dano = calcularDano();
         System.out.println("Usar Magia!");
         System.out.println("Dano causado: " + dano);
+    }
+
+    @Override
+    public void conjurarMagia() {
+
     }
 }
 
